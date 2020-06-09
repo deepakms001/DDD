@@ -1,6 +1,6 @@
 <?php
 
-namespace Awok\Foundation\Http;
+namespace Lucid\Foundation\Http;
 
 use Illuminate\Support\ServiceProvider;
 

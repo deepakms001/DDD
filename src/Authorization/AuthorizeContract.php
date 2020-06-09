@@ -1,6 +1,6 @@
 <?php
 
-namespace Awok\Authorization;
+namespace Lucid\Authorization;
 
 interface AuthorizeContract
 {

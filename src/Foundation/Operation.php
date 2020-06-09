@@ -1,8 +1,8 @@
 <?php
-namespace Awok\Foundation;
+namespace Lucid\Foundation;
 
-use Awok\Foundation\Traits\JobDispatcherTrait;
-use Awok\Foundation\Traits\MarshalTrait;
+use Lucid\Foundation\Traits\JobDispatcherTrait;
+use Lucid\Foundation\Traits\MarshalTrait;
 
 abstract class Operation
 {

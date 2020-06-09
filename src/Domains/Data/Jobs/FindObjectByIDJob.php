@@ -1,8 +1,8 @@
 <?php
 
-namespace Awok\Domains\Data\Jobs;
+namespace Lucid\Domains\Data\Jobs;
 
-use Awok\Foundation\Job;
+use Lucid\Foundation\Job;
 
 class FindObjectByIDJob extends Job
 {

@@ -1,15 +1,15 @@
 <?php
 
-namespace Awok\Authorization\Gateway\Kong;
+namespace Lucid\Authorization\Gateway\Kong;
 
 use App\Data\Models\User;
-use Awok\Authorization\Gateway\Contracts\AuthContract;
+use Lucid\Authorization\Gateway\Contracts\AuthContract;
 use Illuminate\Http\Request;
 
 /**
  * Class Auth
  *
- * @package Awok\Autrhorization\Gateway\Kong
+ * @package Lucid\Autrhorization\Gateway\Kong
  */
 class Auth implements AuthContract
 {

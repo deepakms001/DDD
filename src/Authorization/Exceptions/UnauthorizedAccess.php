@@ -1,6 +1,6 @@
 <?php
 
-namespace Awok\Authorization\Exceptions;
+namespace Lucid\Authorization\Exceptions;
 
 class UnauthorizedAccess extends \Exception
 {

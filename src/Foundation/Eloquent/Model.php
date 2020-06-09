@@ -1,6 +1,6 @@
 <?php
 
-namespace Awok\Foundation\Eloquent;
+namespace Lucid\Foundation\Eloquent;
 
 class Model extends \Illuminate\Database\Eloquent\Model
 {
@@ -9,7 +9,7 @@ class Model extends \Illuminate\Database\Eloquent\Model
      *
      * @param \Illuminate\Database\Query\Builder $query
      *
-     * @return \Awok\Foundation\Eloquent\Builder
+     * @return \Lucid\Foundation\Eloquent\Builder
      */
     public function newEloquentBuilder($query)
     {

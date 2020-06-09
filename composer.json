@@ -1,16 +1,16 @@
 {
-  "name": "mander/awok-lucid",
-  "description": "Awok.com Lucid Base Repository",
+  "name": "deepakms001/base-lucid",
+  "description": "Domain driven development based framework helper repo",
   "authors": [
     {
-      "name": "Muhammad Anwar",
-      "email": "m_anwar@awok.ae"
+      "name": "Deepak M S",
+      "email": "deepakms001@yahoo.com"
     }
   ],
   "require": {},
   "autoload": {
     "psr-4": {
-      "Awok\\": "src/"
+      "Lucid\\": "src/"
     }
   }
 }

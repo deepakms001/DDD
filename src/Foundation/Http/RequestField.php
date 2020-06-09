@@ -1,11 +1,11 @@
 <?php
 
-namespace Awok\Foundation\Http;
+namespace Lucid\Foundation\Http;
 
 /**
  * Class RequestField
  *
- * @package Awok\Foundation\Http
+ * @package Lucid\Foundation\Http
  */
 class RequestField
 {

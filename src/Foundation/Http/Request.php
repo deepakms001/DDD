@@ -1,6 +1,6 @@
 <?php
 
-namespace Awok\Foundation\Http;
+namespace Lucid\Foundation\Http;
 
 class Request extends \Illuminate\Http\Request
 {
@@ -32,7 +32,7 @@ class Request extends \Illuminate\Http\Request
     /**
      * Get Request Fields
      *
-     * @return \Awok\Foundation\Http\RequestFieldCollection|null
+     * @return \Lucid\Foundation\Http\RequestFieldCollection|null
      */
     public function getFields()
     {
@@ -54,7 +54,7 @@ class Request extends \Illuminate\Http\Request
     /**
      * Get Request Filters
      *
-     * @return \Awok\Foundation\Http\RequestFilterCollection
+     * @return \Lucid\Foundation\Http\RequestFilterCollection
      */
     public function getFilters()
     {
@@ -76,7 +76,7 @@ class Request extends \Illuminate\Http\Request
     /**
      *  Get Request sort fields
      *
-     * @return \Awok\Foundation\Http\RequestSortCollection
+     * @return \Lucid\Foundation\Http\RequestSortCollection
      */
     public function getSort()
     {
@@ -98,7 +98,7 @@ class Request extends \Illuminate\Http\Request
     /**
      * Get Request Relations
      *
-     * @return \Awok\Foundation\Http\RequestRelationFieldCollection
+     * @return \Lucid\Foundation\Http\RequestRelationFieldCollection
      */
     public function getRelations()
     {

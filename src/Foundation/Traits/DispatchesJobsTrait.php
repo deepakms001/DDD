@@ -1,6 +1,6 @@
 <?php
 
-namespace Awok\Foundation\Traits;
+namespace Lucid\Foundation\Traits;
 
 trait DispatchesJobsTrait
 {

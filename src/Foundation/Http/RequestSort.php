@@ -1,11 +1,11 @@
 <?php
 
-namespace Awok\Foundation\Http;
+namespace Lucid\Foundation\Http;
 
 /**
  * Class RequestSort
  *
- * @package Awok\Foundation\Http
+ * @package Lucid\Foundation\Http
  */
 class RequestSort
 {
@@ -73,7 +73,7 @@ class RequestSort
     /**
      * Return the request sort field instance
      *
-     * @return \Awok\Foundation\Http\RequestField
+     * @return \Lucid\Foundation\Http\RequestField
      */
     public function getField()
     {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Awok\Foundation;
+namespace Lucid\Foundation;
 
-use Awok\Foundation\Traits\JobDispatcherTrait;
+use Lucid\Foundation\Traits\JobDispatcherTrait;
 
 abstract class Job
 {

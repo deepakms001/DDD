@@ -1,16 +1,16 @@
 <?php
 
-namespace Awok\Domains\Data\Traits;
+namespace Lucid\Domains\Data\Traits;
 
-use Awok\Foundation\Eloquent\Model;
-use Awok\Foundation\Http\Request;
-use Awok\Foundation\Http\RequestFieldCollection;
-use Awok\Foundation\Http\RequestFilter;
-use Awok\Foundation\Http\RequestFilterCollection;
-use Awok\Foundation\Http\RequestRelationField;
-use Awok\Foundation\Http\RequestRelationFieldCollection;
-use Awok\Foundation\Http\RequestSort;
-use Awok\Foundation\Http\RequestSortCollection;
+use Lucid\Foundation\Eloquent\Model;
+use Lucid\Foundation\Http\Request;
+use Lucid\Foundation\Http\RequestFieldCollection;
+use Lucid\Foundation\Http\RequestFilter;
+use Lucid\Foundation\Http\RequestFilterCollection;
+use Lucid\Foundation\Http\RequestRelationField;
+use Lucid\Foundation\Http\RequestRelationFieldCollection;
+use Lucid\Foundation\Http\RequestSort;
+use Lucid\Foundation\Http\RequestSortCollection;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\Relation;
 
@@ -112,7 +112,7 @@ trait EloquentRequestQueryable
             $this->relationName     = $this->getModel()->getRelated()->getTable();
             $this->relationInstance = true;
             $queryBuilder           = $this->getModel()->getQuery();
-        } elseif ($this->getModel() instanceof \Awok\Foundation\Eloquent\Builder) {
+        } elseif ($this->getModel() instanceof \Lucid\Foundation\Eloquent\Builder) {
             $queryBuilder = $this->getModel();
         } else {
             throw new \InvalidArgumentException('Invalid Model/Builder/Relation supplied');

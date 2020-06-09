@@ -1,11 +1,11 @@
 <?php
 
-namespace Awok\Foundation\Http;
+namespace Lucid\Foundation\Http;
 
 /**
  * Class RequestSort
  *
- * @package Awok\Foundation\Http
+ * @package Lucid\Foundation\Http
  */
 class RequestRelationField extends RequestField
 {
@@ -35,7 +35,7 @@ class RequestRelationField extends RequestField
     /**
      * Returns collection of sub-field objects
      *
-     * @return \Awok\Foundation\Http\RequestFieldCollection
+     * @return \Lucid\Foundation\Http\RequestFieldCollection
      */
     public function getSubFields()
     {

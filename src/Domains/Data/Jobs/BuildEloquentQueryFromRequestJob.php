@@ -1,10 +1,10 @@
 <?php
 
-namespace Awok\Domains\Data\Jobs;
+namespace Lucid\Domains\Data\Jobs;
 
-use Awok\Domains\Data\Traits\EloquentRequestQueryable;
-use Awok\Foundation\Http\Request;
-use Awok\Foundation\Job;
+use Lucid\Domains\Data\Traits\EloquentRequestQueryable;
+use Lucid\Foundation\Http\Request;
+use Lucid\Foundation\Job;
 
 class BuildEloquentQueryFromRequestJob extends Job
 {

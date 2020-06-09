@@ -1,8 +1,8 @@
 <?php
 
-namespace Awok\Console\Commands;
+namespace Lucid\Console\Commands;
 
-use Awok\Console\Generators\OperationGenerator;
+use Lucid\Console\Generators\OperationGenerator;
 use Exception;
 use Illuminate\Console\Command;
 

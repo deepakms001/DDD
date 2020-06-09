@@ -1,7 +1,7 @@
 <?php
-namespace Awok\Domains\Http\Jobs;
+namespace Lucid\Domains\Http\Jobs;
 
-use Awok\Foundation\Job;
+use Lucid\Foundation\Job;
 use Laravel\Lumen\Http\ResponseFactory;
 
 class JsonResponseJob extends Job

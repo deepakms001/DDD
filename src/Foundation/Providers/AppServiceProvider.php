@@ -1,15 +1,15 @@
 <?php
 
-namespace Awok\Foundation\Providers;
+namespace Lucid\Foundation\Providers;
 
-use Awok\Console\Commands\ControllerMakeCommand;
-use Awok\Console\Commands\CrudMakeCommand;
-use Awok\Console\Commands\FeatureMakeCommand;
-use Awok\Console\Commands\JobMakeCommand;
-use Awok\Console\Commands\ModelMakeCommand;
-use Awok\Console\Commands\OperationMakeCommand;
-use Awok\Console\Commands\ValidatorMakeCommand;
-use Awok\Foundation\Exceptions\Handler\JsonExceptionsHandler;
+use Lucid\Console\Commands\ControllerMakeCommand;
+use Lucid\Console\Commands\CrudMakeCommand;
+use Lucid\Console\Commands\FeatureMakeCommand;
+use Lucid\Console\Commands\JobMakeCommand;
+use Lucid\Console\Commands\ModelMakeCommand;
+use Lucid\Console\Commands\OperationMakeCommand;
+use Lucid\Console\Commands\ValidatorMakeCommand;
+use Lucid\Foundation\Exceptions\Handler\JsonExceptionsHandler;
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Support\ServiceProvider;
 

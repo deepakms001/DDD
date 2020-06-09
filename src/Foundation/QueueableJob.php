@@ -1,5 +1,5 @@
 <?php
-namespace Awok\Foundation;
+namespace Lucid\Foundation;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;

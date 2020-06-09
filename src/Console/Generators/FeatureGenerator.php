@@ -1,6 +1,6 @@
 <?php
 
-namespace Awok\Console\Generators;
+namespace Lucid\Console\Generators;
 
 use Exception;
 use Illuminate\Support\Str;

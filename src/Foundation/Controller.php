@@ -1,8 +1,8 @@
 <?php
 
-namespace Awok\Foundation;
+namespace Lucid\Foundation;
 
-use Awok\Foundation\Traits\ServesFeaturesTrait;
+use Lucid\Foundation\Traits\ServesFeaturesTrait;
 use Laravel\Lumen\Routing\Controller as BaseController;
 
 class Controller extends BaseController

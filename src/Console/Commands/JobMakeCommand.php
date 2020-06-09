@@ -1,8 +1,8 @@
 <?php
 
-namespace Awok\Console\Commands;
+namespace Lucid\Console\Commands;
 
-use Awok\Console\Generators\JobGenerator;
+use Lucid\Console\Generators\JobGenerator;
 use Exception;
 use Illuminate\Console\Command;
 

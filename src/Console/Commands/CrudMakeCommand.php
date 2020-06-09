@@ -1,12 +1,12 @@
 <?php
 
-namespace Awok\Console\Commands;
+namespace Lucid\Console\Commands;
 
-use Awok\Console\Generators\ControllerGenerator;
-use Awok\Console\Generators\FeatureGenerator;
-use Awok\Console\Generators\JobGenerator;
-use Awok\Console\Generators\ModelGenerator;
-use Awok\Console\Generators\ValidatorGenerator;
+use Lucid\Console\Generators\ControllerGenerator;
+use Lucid\Console\Generators\FeatureGenerator;
+use Lucid\Console\Generators\JobGenerator;
+use Lucid\Console\Generators\ModelGenerator;
+use Lucid\Console\Generators\ValidatorGenerator;
 use Exception;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;

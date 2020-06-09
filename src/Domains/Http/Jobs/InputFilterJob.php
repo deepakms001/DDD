@@ -1,9 +1,9 @@
 <?php
 
-namespace Awok\Domains\Http\Jobs;
+namespace Lucid\Domains\Http\Jobs;
 
-use Awok\Foundation\Http\Request;
-use Awok\Foundation\Job;
+use Lucid\Foundation\Http\Request;
+use Lucid\Foundation\Job;
 
 class InputFilterJob extends Job
 {

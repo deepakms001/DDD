@@ -1,8 +1,8 @@
 <?php
 
-namespace Awok\Console\Commands;
+namespace Lucid\Console\Commands;
 
-use Awok\Console\Generators\ValidatorGenerator;
+use Lucid\Console\Generators\ValidatorGenerator;
 use Exception;
 use Illuminate\Console\Command;
 

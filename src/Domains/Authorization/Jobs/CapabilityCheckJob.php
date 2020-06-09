@@ -1,9 +1,9 @@
 <?php
 
-namespace Awok\Domains\Authorization\Jobs;
+namespace Lucid\Domains\Authorization\Jobs;
 
-use Awok\Authorization\Exceptions\UnauthorizedAccess;
-use Awok\Foundation\Job;
+use Lucid\Authorization\Exceptions\UnauthorizedAccess;
+use Lucid\Foundation\Job;
 
 class CapabilityCheckJob extends Job
 {

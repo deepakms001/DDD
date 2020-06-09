@@ -1,8 +1,8 @@
 <?php
 
-namespace Awok\Console\Commands;
+namespace Lucid\Console\Commands;
 
-use Awok\Console\Generators\FeatureGenerator;
+use Lucid\Console\Generators\FeatureGenerator;
 use Exception;
 use Illuminate\Console\Command;
 

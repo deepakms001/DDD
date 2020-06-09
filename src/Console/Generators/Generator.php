@@ -1,8 +1,9 @@
 <?php
 
-namespace Awok\Console\Generators;
+namespace Lucid\Console\Generators;
 
 use Exception;
+use Illuminate\Support\Str;
 use Illuminate\Filesystem\Filesystem;
 
 class Generator
@@ -65,7 +66,7 @@ class Generator
 
     public function findVendorRootNameSpace()
     {
-        return 'Awok';
+        return 'Lucid';
     }
 
     public function findControllerNamespace()
@@ -150,7 +151,7 @@ class Generator
 
     public function controllerName($name)
     {
-        return studly_case(preg_replace('/Controller(\.php)?$/', '', $name).'Controller');
+        return Str::studly(preg_replace('/Controller(\.php)?$/', '', $name).'Controller');
     }
 
     public function getStubName()

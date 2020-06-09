@@ -1,10 +1,11 @@
 <?php
 
-namespace Awok\Foundation\Exceptions\Handler;
+namespace Lucid\Foundation\Exceptions\Handler;
 
-use Awok\Domains\Http\Jobs\JsonErrorResponseJob;
-use Awok\Foundation\Traits\JobDispatcherTrait;
-use Awok\Foundation\Traits\MarshalTrait;
+use Lucid\Domains\Http\Jobs\JsonErrorResponseJob;
+use Lucid\Foundation\Exceptions\InvalidInputException;
+use Lucid\Foundation\Traits\JobDispatcherTrait;
+use Lucid\Foundation\Traits\MarshalTrait;
 use Exception;
 use Laravel\Lumen\Exceptions\Handler;
 
@@ -24,10 +25,16 @@ class JsonExceptionsHandler extends Handler
             return parent::render($request, $e);
         }
 
+        $fieldErrors = [];
+        if ($e instanceof InvalidInputException) {
+            $fieldErrors = $e->getFieldErrors();
+        }
+
         return $this->run(JsonErrorResponseJob::class, [
             'message' => $e->getMessage(),
+            'fieldErrors' => $fieldErrors,
             'code'    => get_class($e),
-            'status'  => ($e->getCode() < 100 || $e->getCode() >= 600) ? 400 : $e->getCode(),
+            'status'  => ($e->getCode() < 100 || $e->getCode() >= 600) ? 400 : $e->getCode()
         ]);
     }
 }

@@ -1,8 +1,8 @@
 <?php
 
-namespace Awok\Validation;
+namespace Lucid\Validation;
 
-use Awok\Foundation\Exceptions\InvalidInputException;
+use Lucid\Foundation\Exceptions\InvalidInputException;
 
 /**
  * Base Validator class, to be extended by specific validators.
@@ -36,7 +36,9 @@ class Validator
     {
         $validation = $this->validation($input, $rules, $messages);
         if ($validation->fails()) {
-            throw new InvalidInputException($validation);
+            $errorMessage = 'Please fill all fields properly';
+            $fieldErrors = json_decode($validation->errors(),TRUE);
+            throw new InvalidInputException($errorMessage, 422, null, $fieldErrors);
         }
 
         return true;

@@ -1,11 +1,11 @@
 <?php
 
-namespace Awok\Foundation\Http;
+namespace Lucid\Foundation\Http;
 
 /**
  * Class RequestFilter
  *
- * @package Awok\Foundation\Http
+ * @package Lucid\Foundation\Http
  */
 class RequestFilter
 {
@@ -146,7 +146,7 @@ class RequestFilter
     /**
      * Return filter field object
      *
-     * @return \Awok\Foundation\Http\RequestField
+     * @return \Lucid\Foundation\Http\RequestField
      */
     public function getField()
     {

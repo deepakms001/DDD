@@ -1,8 +1,8 @@
 <?php
 
-namespace Awok\Authorization\Middleware;
+namespace Lucid\Authorization\Middleware;
 
-use Awok\Authorization\Exceptions\UnauthorizedAccess;
+use Lucid\Authorization\Exceptions\UnauthorizedAccess;
 
 class RoleMiddleware
 {

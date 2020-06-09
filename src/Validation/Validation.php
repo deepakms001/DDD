@@ -1,5 +1,5 @@
 <?php
-namespace Awok\Validation;
+namespace Lucid\Validation;
 
 /**
  * Validation factory.
